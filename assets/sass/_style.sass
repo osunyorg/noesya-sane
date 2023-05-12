@@ -11,6 +11,11 @@ header#document-header nav > .container
 .persons__page
     .posts--list article .post-content
         grid-column: 1/13
+.block-posts--list article .post-content
+    @include in-page-with-or-without-sidebar
+        margin-left: 0
+        @include media-breakpoint-up(md)
+            width: col(8)
 
 @include media-breakpoint-up(desktop)
     .posts__page 
