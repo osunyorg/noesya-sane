@@ -12,3 +12,5 @@ params:
   ecosystem: sane
   logo:
     header: "/assets/images/logo.svg"
+  summary:
+    position: hero
