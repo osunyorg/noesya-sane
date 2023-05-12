@@ -4,3 +4,29 @@ header#document-header nav > .container
         height: $header-height-desktop
     .logo
         margin-top: 4px
+
+.posts__section, 
+.authors__term, 
+.categories__term, 
+.persons__page
+    .posts--list article .post-content
+        grid-column: 1/13
+
+@include media-breakpoint-up(desktop)
+    .posts__page 
+        .document-content .block .block-content
+            padding-left: 0 !important
+            padding-right: offset(4)
+        .post-sidebar
+            @include container-margin-right
+            right: 0
+            left: unset
+            > div
+                top: calc(#{$spacing3} + #{$spacing1})
+            .post-infos li,
+            .toc-container
+                border-top: none
+            .post-infos li:last-child
+                padding-bottom: 0
+            .toc-container
+                padding-top: $spacing1
