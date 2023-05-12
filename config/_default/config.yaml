@@ -9,5 +9,6 @@ deployment:
       URL: "s3://5ad7c032ba848a517d3dfd53f5fa4f412fd8b01e7d191314caebfa6798c7f0b1?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
 
 params:
+  ecosystem: sane
   logo:
     header: "/assets/images/logo.svg"
