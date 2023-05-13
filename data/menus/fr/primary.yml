@@ -1,4 +1,8 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Comptabilité CARE
+  target: "/fr/comptabilite-care/"
+  kind: page
+  children: []
 
