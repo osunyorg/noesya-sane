@@ -38,3 +38,10 @@ header#document-header nav > .container
                 padding-bottom: 0
             .toc-container
                 padding-top: $spacing1
+
+.block-pages
+    &--grid
+        @include media-breakpoint-up(desktop)
+            .grid
+                @include in-page-without-sidebar
+                    @include grid(2, desktop)
