@@ -9,4 +9,8 @@ items:
   target: "/fr/post-growth-innovation/"
   kind: page
   children: []
+- title: Actualités
+  target: "/fr/actualites/"
+  kind: page
+  children: []
 
