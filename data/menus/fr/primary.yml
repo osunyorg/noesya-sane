@@ -5,4 +5,8 @@ items:
   target: "/fr/comptabilite-care/"
   kind: page
   children: []
+- title: Post-growth innovation
+  target: "/fr/post-growth-innovation/"
+  kind: page
+  children: []
 
