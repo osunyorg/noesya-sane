@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Comptabilité CARE
-  target: "/fr/comptabilite-care/"
+  target: "/fr/comptabilite-post-croissance/"
   kind: page
   children: []
 - title: Post-growth innovation
