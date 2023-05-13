@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Comptabilité CARE
+- title: Comptabilité post-croissance
   target: "/fr/comptabilite-post-croissance/"
   kind: page
   children: []
