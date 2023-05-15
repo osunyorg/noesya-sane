@@ -21,7 +21,7 @@ header#document-header nav > .container
     display: none !important
 
 @include media-breakpoint-up(desktop)
-    .posts__page 
+    .posts__page
         .document-content .block .block-content
             padding-left: 0 !important
             padding-right: offset(4)
@@ -50,6 +50,20 @@ header#document-header nav > .container
                 padding-bottom: 0
             .toc-container
                 padding-top: $spacing1
+    .pages__section:not(.full-width)
+        .document-content .block .block-content
+            padding-left: 0 !important
+            padding-right: offset(4)
+        .toc-container
+            @include container-margin-right
+            right: 0
+            left: unset
+            text-align: right
+            > div
+                top: calc(#{$spacing3} + #{$spacing1})
+            .toc-pages
+                ol
+                    align-items: flex-end
 
 .block-pages
     &--grid
