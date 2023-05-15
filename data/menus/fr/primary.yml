@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Le programme
+  target: "/fr/le-programme/"
+  kind: page
+  children: []
 - title: Comptabilité post-croissance
   target: "/fr/comptabilite-post-croissance/"
   kind: page
@@ -11,10 +15,6 @@ items:
   children: []
 - title: Actualités
   target: "/fr/actualites/"
-  kind: page
-  children: []
-- title: Le programme
-  target: "/fr/le-programme/"
   kind: page
   children: []
 
