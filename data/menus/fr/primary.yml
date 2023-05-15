@@ -13,4 +13,8 @@ items:
   target: "/fr/actualites/"
   kind: page
   children: []
+- title: Le programme
+  target: "/fr/le-programme/"
+  kind: page
+  children: []
 
