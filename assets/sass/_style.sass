@@ -23,8 +23,10 @@ header#document-header nav > .container
     display: none !important
 
 @include media-breakpoint-up(desktop)
+    .posts__page, .pages__section:not(.full-width)
+        
     .posts__page
-        .document-content .block .block-content
+        .block .block-content, .heading h2
             padding-left: 0 !important
             padding-right: offset(4)
         .post-sidebar
@@ -62,9 +64,6 @@ header#document-header nav > .container
             .toc-container
                 padding-top: $spacing1
     .pages__section:not(.full-width)
-        .document-content .block .block-content
-            padding-left: 0 !important
-            padding-right: offset(4)
         .toc-container
             @include container-margin-right
             right: 0
