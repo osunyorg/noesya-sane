@@ -6,3 +6,8 @@ baseURL: https://sane.noesya.coop
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
 
+## DEUXFLEURS
+deployment:
+  targets:
+    - name: "production"
+      URL: "s3://sane.noesya.coop?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
