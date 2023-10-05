@@ -1,7 +1,8 @@
 ---
-title: >
-  noesya
+title: "noesya"
 breadcrumb_title: "Accueil"
+breadcrumbs:
+  - title: "noesya"
 url: "/fr/"
 
 full_width: true
@@ -18,12 +19,12 @@ translation_key: communication-website-page-2133bd2c-c625-49de-b9f7-a97392abab1f
 bodyclass: 
 
 children:
-  - /fr/le-programme/
-  - /fr/comptabilite-post-croissance/
-  - /fr/axis-2/
-  - /fr/actualites/
-  - /fr/personnes/
-  - /fr/organisations/
+  - "content/fr/pages/le-programme/_index.html"
+  - "content/fr/pages/comptabilite-post-croissance/_index.html"
+  - "content/fr/pages/axis-2/_index.html"
+  - "content/fr/posts/_index.html"
+  - "content/fr/persons/_index.html"
+  - "content/fr/organizations/_index.html"
 meta_description: >
   
 description: >
@@ -52,29 +53,14 @@ contents:
       show_images: false
       layout: grid
       pages:
-        - page: "/fr/comptabilite-post-croissance/"
-          slug: "/fr/comptabilite-post-croissance/"
-        - page: "/fr/axis-2/"
-          slug: "/fr/axis-2/"
-      elements:
-        - title: >-
-            Comptabilité post-croissance
-          summary: >-
-            Quel modèle comptable pour une organisation post-croissance ? Comment préserver ce qui est capital ?
+        - path: "/fr/comptabilite-post-croissance/"
           slug: "comptabilite-post-croissance"
-          path: "/fr/comptabilite-post-croissance/"
-          url: "/fr/comptabilite-post-croissance/"
-          bodyclass: >-
-            
-        - title: >-
-            Récits post-croissance
-          summary: >-
-            Quels récits au sein d'une organisation post-croissance ? Quelles relations avec les autres organisations ?
+          file: "content/fr/pages/comptabilite-post-croissance/_index.html"
+          external: false
+        - path: "/fr/axis-2/"
           slug: "axis-2"
-          path: "/fr/axis-2/"
-          url: "/fr/axis-2/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/axis-2/_index.html"
+          external: false
 
 
   - kind: heading
@@ -95,127 +81,27 @@ contents:
       with_link: true
       organizations:
         - slug: "cerces"
+          external: false
         - slug: "chaire-comptabilite-ecologique"
+          external: false
         - slug: "coop-des-communs"
+          external: false
         - slug: "efigie"
+          external: false
         - slug: "laboratoire-mica"
+          external: false
         - slug: "labset"
+          external: false
         - slug: "noesya"
+          external: false
         - slug: "post-growth-innovation-lab"
+          external: false
         - slug: "universidade-de-vigo"
+          external: false
         - slug: "universite-bordeaux-montaigne"
+          external: false
         - slug: "universite-de-liege"
-      elements:
-        - title: >-
-            
-          kind: "osuny"
-          slug: "cerces"
-          url: "/fr/organisations/cerces/"
-          logo:
-            light_background:
-              id: "5cf193b5-b774-4fdd-b913-9006d256b51a"
-            dark_background:
-              id: "9cecc6b9-9c95-4ca8-aba3-a18fe31eba79"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "chaire-comptabilite-ecologique"
-          url: "/fr/organisations/chaire-comptabilite-ecologique/"
-          logo:
-            light_background:
-              id: "99b5643f-91ba-43c6-aeaf-bcea189d5f74"
-            dark_background:
-              id: "ab932807-29a9-4981-a4d4-14a2f4ca30d5"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "coop-des-communs"
-          url: "/fr/organisations/coop-des-communs/"
-          logo:
-            light_background:
-              id: "aba863f0-55d9-4a99-9e9a-0de84aa8c15c"
-            dark_background:
-              id: "ebab6bec-6912-4d7e-9e3c-0238c384c565"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "efigie"
-          url: "/fr/organisations/efigie/"
-          logo:
-            light_background:
-              id: "ec5c1eb0-fedf-4f57-8654-61e2ebf3db84"
-            dark_background:
-              id: "58ad4a96-aa29-4a5a-9c21-79f100595876"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "laboratoire-mica"
-          url: "/fr/organisations/laboratoire-mica/"
-          logo:
-            light_background:
-              id: "ab163d18-2a56-4713-b4de-69b95aabd9f2"
-            dark_background:
-              id: "04cfa913-02f2-4249-bbb6-0ba0689443fe"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "labset"
-          url: "/fr/organisations/labset/"
-          logo:
-            light_background:
-              id: "20c835dd-b599-452a-8fd2-cc88d395f75e"
-            dark_background:
-              id: "1bd145a2-ccb3-466f-a2a2-8de44abffde8"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "noesya"
-          url: "/fr/organisations/noesya/"
-          logo:
-            light_background:
-              id: "9c449613-6851-4c90-b210-48e9630d8f5d"
-            dark_background:
-              id: "6d99e104-d27e-4019-a6aa-06923384bbcf"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "post-growth-innovation-lab"
-          url: "/fr/organisations/post-growth-innovation-lab/"
-          logo:
-            light_background:
-              id: "864df601-a983-4cdc-a929-30f71bf4bc6e"
-            dark_background:
-              id: "7b957ff2-ee5f-4a70-ab6b-51050a493ca9"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "universidade-de-vigo"
-          url: "/fr/organisations/universidade-de-vigo/"
-          logo:
-            light_background:
-              id: "532b9c3e-0a4f-44ef-8ba5-8f14a82b7dc7"
-            dark_background:
-              id: "f4ae60f4-950c-427c-bc66-8b77c1f87d75"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "universite-bordeaux-montaigne"
-          url: "/fr/organisations/universite-bordeaux-montaigne/"
-          logo:
-            light_background:
-              id: "0718ae92-8491-4551-ab82-2a12e3603b36"
-            dark_background:
-              id: "69a27c61-cdd1-4a7c-8969-dae268622863"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "universite-de-liege"
-          url: "/fr/organisations/universite-de-liege/"
-          logo:
-            light_background:
-              id: "2fc3b74e-434f-4ba8-b8bb-27f0a5ba1ea3"
-            dark_background:
-              id: "452955cf-15c3-4404-8546-2dbaa97c7691"
+          external: false
 
 
   - kind: block
@@ -230,61 +116,6 @@ contents:
         - "2023/2023-05-10-a-sane-island-in-an-ocean-of-madness-a-case-of-organising-and-innovating-through-post-growth-values"
         - "2023/2023-04-03-rencontre-capitaux-humains-et-education"
         - "2023/2023-02-24-reunion-de-travail-du-groupe-communs-et-comptabilite-1"
-      elements:
-        - title: >-
-            A sane island in an ocean of madness: a case of organising and innovating through post-growth values
-          summary: >-
-            Organising Post-growth at STS Conference Graz
-          slug: "a-sane-island-in-an-ocean-of-madness-a-case-of-organising-and-innovating-through-post-growth-values"
-          path: "/2023/05/10/a-sane-island-in-an-ocean-of-madness-a-case-of-organising-and-innovating-through-post-growth-values"
-          url: "/fr/actualites/2023-05-10-a-sane-island-in-an-ocean-of-madness-a-case-of-organising-and-innovating-through-post-growth-values/"
-          categories:
-            - title: >-
-                Récits post-croissance
-              slug: "axis-2"
-              path: "/axis-2/"
-              url: "/fr/actualites/axis-2/"
-          author:
-            name: >-  
-              Ben Robra
-            slug: "ben-robra"
-            url: "/fr/personnes/ben-robra/"
-        - title: >-
-            Rencontre capitaux humains et éducation
-          summary: >-
-            
-          slug: "rencontre-capitaux-humains-et-education"
-          path: "/2023/04/03/rencontre-capitaux-humains-et-education"
-          url: "/fr/actualites/2023-04-03-rencontre-capitaux-humains-et-education/"
-          categories:
-            - title: >-
-                Comptabilité post-croissance
-              slug: "axe-1"
-              path: "/axe-1/"
-              url: "/fr/actualites/axe-1/"
-          author:
-            name: >-  
-              Arnaud Levy
-            slug: "arnaud-levy"
-            url: "/fr/personnes/arnaud-levy/"
-        - title: >-
-            Réunion du groupe &quot;Communs et Comptabilité&quot;
-          summary: >-
-            
-          slug: "reunion-de-travail-du-groupe-communs-et-comptabilite-1"
-          path: "/2023/02/24/reunion-de-travail-du-groupe-communs-et-comptabilite-1"
-          url: "/fr/actualites/2023-02-24-reunion-de-travail-du-groupe-communs-et-comptabilite-1/"
-          categories:
-            - title: >-
-                Comptabilité post-croissance
-              slug: "axe-1"
-              path: "/axe-1/"
-              url: "/fr/actualites/axe-1/"
-          author:
-            name: >-  
-              Arnaud Levy
-            slug: "arnaud-levy"
-            url: "/fr/personnes/arnaud-levy/"
 
 
 
