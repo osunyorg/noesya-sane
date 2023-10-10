@@ -9,6 +9,10 @@ items:
   target: "/fr/comptabilite-post-croissance/"
   kind: page
   children: []
+- title: Numérique d'intérêt général
+  target: "/fr/axis-3/"
+  kind: page
+  children: []
 - title: Récits post-croissance
   target: "/fr/axis-2/"
   kind: page
