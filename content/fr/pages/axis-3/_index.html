@@ -42,13 +42,14 @@ contents:
     title: >-
       Définitions
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       Le numérique
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -71,7 +72,8 @@ contents:
     title: >-
       L'intérêt général
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -94,13 +96,14 @@ contents:
     title: >-
       Axe 3
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -123,7 +126,9 @@ contents:
     title: >-
       Actualités de l'axe 3
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       category: "/numerique-dinteret-general/"
       layout: list

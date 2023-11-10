@@ -48,7 +48,9 @@ contents:
     title: >-
       3 axes de recherche
     position: 1
-    heading_level: 2
+    ranks:
+      self: 2
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true
@@ -73,13 +75,15 @@ contents:
     title: >-
       Organisations impliquées
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: organizations
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       layout: grid
       description: >-
@@ -116,7 +120,9 @@ contents:
     title: >-
       Actualités récentes
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       all: true
       layout: list
