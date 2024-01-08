@@ -17,8 +17,4 @@ items:
   target: "/fr/axis-2/"
   kind: page
   children: []
-- title: Actualités
-  target: "/fr/actualites/"
-  kind: page
-  children: []
 
