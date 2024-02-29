@@ -15,7 +15,7 @@ header#document-header nav > .container
     @include in-page-with-or-without-sidebar
         margin-left: 0
         @include media-breakpoint-up(md)
-            width: col(8)
+            width: columns(8)
 .media:empty
     display: none
 
@@ -26,32 +26,32 @@ header#document-header nav > .container
 @include media-breakpoint-up(desktop)
     .posts__page .document-content
         min-height: 550px
-    .posts__page, .pages__section:not(.full-width)
+    .posts__page:not(.full-width), .pages__section:not(.full-width)
         .block .block-content, .heading h2
             padding-left: 0 !important
             padding-right: offset(4)
         .post-sidebar
-            @include container-margin-right
+            margin-right: grid-external-space()
             right: 0
             left: unset
             > div
                 position: relative
-                height: calc(100% - calc(#{$spacing3} + #{$spacing1}))
-                top: $spacing1 !important
+                height: calc(100% - calc(#{$spacing-5} + #{$spacing-3}))
+                top: $spacing-3 !important
                 .toc-container
                     height: unset
                     position: sticky
-                    top: calc(#{$spacing3} + #{$spacing1})
+                    top: calc(#{$spacing-5} + #{$spacing-3})
                     transition: top .3s
                 .toc-content
                     padding-bottom: 0
             .post-infos
                 text-align: right
-                li
+                > li
                     display: block
                     > span
                         display: block
-                        margin-bottom: $spacing0
+                        margin-bottom: $spacing-2
             .toc-content
                 text-align: right
                 .toc-pages
@@ -63,22 +63,22 @@ header#document-header nav > .container
             .post-infos li:last-child
                 padding-bottom: 0
             .toc-container
-                padding-top: $spacing1
+                padding-top: $spacing-3
     .pages__section:not(.full-width)
         .toc-container
-            @include container-margin-right
+            margin-right: grid-external-space()
             right: 0
             left: unset
             text-align: right
             > div
-                top: calc(#{$spacing3} + #{$spacing1})
+                top: calc(#{$spacing-5} + #{$spacing-3})
             .toc-pages
                 ol
                     align-items: flex-end
 
 @include media-breakpoint-down(desktop)
     .posts__page .post-sidebar
-        margin-bottom: $spacing3
+        margin-bottom: $spacing-5
 .block-pages
     &--grid
         @include media-breakpoint-up(desktop)
