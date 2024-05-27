@@ -37,4 +37,8 @@ items:
     target: "/en/glossaire/human-centered-design/"
     kind: page
     children: []
+  - title: Interaction design
+    target: "/en/glossaire/interaction-design/"
+    kind: page
+    children: []
 
