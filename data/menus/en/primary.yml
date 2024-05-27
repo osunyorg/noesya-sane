@@ -29,7 +29,7 @@ items:
     target: "/en/glossaire/accessibility-1/"
     kind: page
     children: []
-  - title: ecodesign
+  - title: Ecodesign
     target: "/en/glossaire/ecodesign/"
     kind: page
     children: []
