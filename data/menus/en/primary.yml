@@ -17,4 +17,20 @@ items:
   target: "/en/agenda/"
   kind: page
   children: []
+- title: Glossary
+  target: "/en/glossaire/"
+  kind: page
+  children:
+  - title: User experience
+    target: "/en/glossaire/experience-de-lutilisateur/"
+    kind: page
+    children: []
+  - title: Accessibility
+    target: "/en/glossaire/accessibility-1/"
+    kind: page
+    children: []
+  - title: ecodesign
+    target: "/en/glossaire/ecodesign/"
+    kind: page
+    children: []
 
