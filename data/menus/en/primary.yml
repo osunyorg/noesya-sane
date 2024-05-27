@@ -33,4 +33,8 @@ items:
     target: "/en/glossaire/ecodesign/"
     kind: page
     children: []
+  - title: Human-centered design
+    target: "/en/glossaire/human-centered-design/"
+    kind: page
+    children: []
 
