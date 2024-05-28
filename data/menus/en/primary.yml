@@ -29,6 +29,10 @@ items:
     target: "/en/glossaire/accessibility-1/"
     kind: page
     children: []
+  - title: Immersive environment
+    target: "/en/glossaire/immersive-environment/"
+    kind: page
+    children: []
   - title: Ecodesign
     target: "/en/glossaire/ecodesign/"
     kind: page
@@ -39,6 +43,22 @@ items:
     children: []
   - title: Interaction design
     target: "/en/glossaire/interaction-design/"
+    kind: page
+    children: []
+  - title: Flow
+    target: "/en/glossaire/flow/"
+    kind: page
+    children: []
+  - title: Immersion
+    target: "/en/glossaire/immersion/"
+    kind: page
+    children: []
+  - title: Presence
+    target: "/en/glossaire/presence/"
+    kind: page
+    children: []
+  - title: Augmented reality (AR)
+    target: "/en/glossaire/augmented-reality-ar/"
     kind: page
     children: []
 
