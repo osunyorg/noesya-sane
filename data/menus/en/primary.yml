@@ -61,4 +61,12 @@ items:
     target: "/en/glossaire/augmented-reality-ar/"
     kind: page
     children: []
+  - title: Mixed reality
+    target: "/en/glossaire/mixed-reality/"
+    kind: page
+    children: []
+  - title: Virtual reality
+    target: "/en/glossaire/virtual-reality/"
+    kind: page
+    children: []
 
