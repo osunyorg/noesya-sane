@@ -77,4 +77,12 @@ items:
     target: "/en/glossaire/user-interface-ui/"
     kind: page
     children: []
+  - title: Interactive system
+    target: "/en/glossaire/interactive-system/"
+    kind: page
+    children: []
+  - title: User
+    target: "/en/glossaire/user/"
+    kind: page
+    children: []
 
