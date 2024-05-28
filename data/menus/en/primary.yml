@@ -69,4 +69,8 @@ items:
     target: "/en/glossaire/virtual-reality/"
     kind: page
     children: []
+  - title: Human Computer Interaction
+    target: "/en/glossaire/human-computer-interaction/"
+    kind: page
+    children: []
 
