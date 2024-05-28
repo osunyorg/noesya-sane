@@ -25,12 +25,12 @@ items:
     target: "/en/glossaire/experience-de-lutilisateur/"
     kind: page
     children: []
-  - title: Accessibility
-    target: "/en/glossaire/accessibility-1/"
-    kind: page
-    children: []
   - title: Immersive environment
     target: "/en/glossaire/immersive-environment/"
+    kind: page
+    children: []
+  - title: Accessibility
+    target: "/en/glossaire/accessibility-1/"
     kind: page
     children: []
   - title: Ecodesign
@@ -71,6 +71,10 @@ items:
     children: []
   - title: Human Computer Interaction
     target: "/en/glossaire/human-computer-interaction/"
+    kind: page
+    children: []
+  - title: User interface (UI)
+    target: "/en/glossaire/user-interface-ui/"
     kind: page
     children: []
 
