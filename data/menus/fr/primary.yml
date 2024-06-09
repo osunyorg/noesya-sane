@@ -17,4 +17,8 @@ items:
   target: "/fr/axis-2/"
   kind: page
   children: []
+- title: Dispositifs Interactifs d'Intérêt Général
+  target: "/fr/axis-4/"
+  kind: page
+  children: []
 
