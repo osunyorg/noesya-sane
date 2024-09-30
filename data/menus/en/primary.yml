@@ -5,16 +5,16 @@ items:
   target: "/en/actualites/"
   kind: page
   children: []
-- title: Organisations
-  target: "/en/organisations/"
+- title: Agenda
+  target: "/en/agenda/"
   kind: page
   children: []
 - title: Équipe
   target: "/en/equipe/"
   kind: page
   children: []
-- title: Agenda
-  target: "/en/agenda/"
+- title: Organisations
+  target: "/en/organisations/"
   kind: page
   children: []
 - title: Glossary
@@ -33,12 +33,12 @@ items:
     target: "/en/glossaire/accessibility-1/"
     kind: page
     children: []
-  - title: Ecodesign
-    target: "/en/glossaire/ecodesign/"
-    kind: page
-    children: []
   - title: Human-centered design
     target: "/en/glossaire/human-centered-design/"
+    kind: page
+    children: []
+  - title: Ecodesign
+    target: "/en/glossaire/ecodesign/"
     kind: page
     children: []
   - title: Interaction design
