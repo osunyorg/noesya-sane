@@ -50,20 +50,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 155
+  seconds: 156
   text: >-
     3 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Définitions
-    slug: "definitions"
-    position: 1
-    rank: 2
+    slug: >-
+      definitions
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Dispositif Interactif
+    slug: >-
+      dispositif-interactif
     ranks:
       self: 3
     data:
@@ -87,6 +95,8 @@ contents:
     template: chapter
     title: >-
       Accessibilité
+    slug: >-
+      accessibilite
     ranks:
       self: 3
     data:
@@ -110,6 +120,8 @@ contents:
     template: chapter
     title: >-
       Soutenabilité environnementale
+    slug: >-
+      soutenabilite-environnementale
     ranks:
       self: 3
     data:
@@ -129,16 +141,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Axe 4
-    slug: "axe-4"
-    position: 2
-    rank: 2
+    slug: >-
+      axe-4
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -163,6 +182,8 @@ contents:
     template: posts
     title: >-
       Actualités de l'axe 4
+    slug: >-
+      actualites-de-l-axe-4
     ranks:
       self: 3
       children: 4
@@ -181,7 +202,6 @@ contents:
 
       posts:
         - "2024/2024-06-14-premiere-phase-de-travail-sur-les-dispositifs-interactifs-sobres"
-
 
 
 

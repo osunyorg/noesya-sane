@@ -51,19 +51,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 68
+  seconds: 69
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Définitions
-    slug: "definitions"
-    position: 1
-    rank: 2
+    slug: >-
+      definitions
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -84,16 +92,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Axe 2
-    slug: "axe-2"
-    position: 2
-    rank: 2
+    slug: >-
+      axe-2
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -118,6 +133,8 @@ contents:
     template: posts
     title: >-
       Actualités de l'axe 2
+    slug: >-
+      actualites-de-l-axe-2
     ranks:
       self: 3
       children: 4
@@ -138,7 +155,6 @@ contents:
         - "2023/2023-05-10-a-sane-island-in-an-ocean-of-madness-a-case-of-organising-and-innovating-through-post-growth-values"
         - "2022/2022-05-17-atelier-exploratoire-avec-ben-robra"
         - "2022/2022-05-07-innovation-without-the-purpose-of-growth-the-emergence-and-scaling-wide-of-postgrowth-organisations"
-
 
 
 

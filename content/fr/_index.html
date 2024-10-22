@@ -55,7 +55,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 2
+  seconds: 5
   text: >-
     moins d'une minute
 contents:
@@ -63,6 +63,8 @@ contents:
     template: pages
     title: >-
       4 axes de recherche
+    slug: >-
+      4-axes-de-recherche
     ranks:
       self: 2
       children: 3
@@ -92,15 +94,23 @@ contents:
           external: false
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Organisations impliquées
-    slug: "organisations-impliquees"
-    position: 1
-    rank: 2
+    slug: >-
+      organisations-impliquees
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -133,6 +143,8 @@ contents:
     template: posts
     title: >-
       Actualités récentes
+    slug: >-
+      actualites-recentes
     ranks:
       self: 3
       children: 4
@@ -159,6 +171,8 @@ contents:
     template: agenda
     title: >-
       Agenda
+    slug: >-
+      agenda
     ranks:
       self: 3
     data:
@@ -177,33 +191,6 @@ contents:
 
       no_event_message: >-
         Pas d'événements planifiés
-
-      title_link: "/fr/agenda/"
-      events:
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    ranks:
-      self: false
-    data:
-      mode: all
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        
 
       title_link: "/fr/agenda/"
       events:

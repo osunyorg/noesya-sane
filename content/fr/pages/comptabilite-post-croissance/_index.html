@@ -50,19 +50,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 65
+  seconds: 66
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Définitions
-    slug: "definitions"
-    position: 1
-    rank: 2
+    slug: >-
+      definitions
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -83,16 +91,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Axe 1
-    slug: "axe-1"
-    position: 2
-    rank: 2
+    slug: >-
+      axe-1
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -117,6 +132,8 @@ contents:
     template: posts
     title: >-
       Actualités de l'axe 1
+    slug: >-
+      actualites-de-l-axe-1
     ranks:
       self: 3
       children: 4
@@ -141,7 +158,6 @@ contents:
         - "2022/2022-10-07-formation-introductive-aux-enjeux-de-la-comptabilite-ecologique-et-aux-principes-et-etapes-methodolo"
         - "2022/2022-09-21-reunion-de-travail-du-groupe-communs-et-comptabilite"
         - "2021/2021-10-25-rendez-vous-exploratoire"
-
 
 
 

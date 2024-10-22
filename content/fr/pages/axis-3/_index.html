@@ -48,20 +48,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 104
+  seconds: 106
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Définitions
-    slug: "definitions"
-    position: 1
-    rank: 2
+    slug: >-
+      definitions
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Le numérique
+    slug: >-
+      le-numerique
     ranks:
       self: 3
     data:
@@ -85,6 +93,8 @@ contents:
     template: chapter
     title: >-
       L'intérêt général
+    slug: >-
+      l-interet-general
     ranks:
       self: 3
     data:
@@ -104,16 +114,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Axe 3
-    slug: "axe-3"
-    position: 2
-    rank: 2
+    slug: >-
+      axe-3
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -138,6 +155,8 @@ contents:
     template: posts
     title: >-
       Actualités de l'axe 3
+    slug: >-
+      actualites-de-l-axe-3
     ranks:
       self: 3
       children: 4
@@ -159,7 +178,6 @@ contents:
         - "2023/2023-09-28-construire-un-cadre-de-reference-pour-un-numerique-dinteret-general"
         - "2023/2023-08-20-lancement-du-site-numeriqueinteretgeneralorg"
         - "2023/2023-07-04-pour-un-numerique-d-interet-general-communication-et-democratie"
-
 
 
 
