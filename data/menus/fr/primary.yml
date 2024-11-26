@@ -5,20 +5,25 @@ items:
   target: "/fr/le-programme/"
   kind: page
   children: []
+  file: content/fr/pages/le-programme/_index.html
 - title: Comptabilité post-croissance
   target: "/fr/comptabilite-post-croissance/"
   kind: page
   children: []
+  file: content/fr/pages/comptabilite-post-croissance/_index.html
 - title: Numérique d'intérêt général
   target: "/fr/axis-3/"
   kind: page
   children: []
+  file: content/fr/pages/axis-3/_index.html
 - title: Récits post-croissance
   target: "/fr/axis-2/"
   kind: page
   children: []
+  file: content/fr/pages/axis-2/_index.html
 - title: Dispositifs Interactifs d'Intérêt Général
   target: "/fr/axis-4/"
   kind: page
   children: []
+  file: content/fr/pages/axis-4/_index.html
 
