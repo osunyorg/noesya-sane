@@ -8,3 +8,5 @@ params:
     header: "/assets/images/logo.svg"
   summary:
     position: hero
+  i18n:
+    positions: none
