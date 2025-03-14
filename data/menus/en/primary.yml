@@ -148,4 +148,11 @@ items:
     file: content/en/pages/glossaire/user/_index.html
   path: "/pages/glossaire"
   file: content/en/pages/glossaire/_index.html
+- title: Exhibitions
+  target: "/en/exhibitions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/exhibitions"
+  file: content/en/exhibitions/_index.html
 
