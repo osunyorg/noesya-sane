@@ -41,13 +41,6 @@ items:
     children: []
     path: "/pages/glossaire/experience-de-lutilisateur"
     file: content/en/pages/glossaire/experience-de-lutilisateur/_index.html
-  - title: Immersive environment
-    target: "/en/glossaire/immersive-environment/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/glossaire/immersive-environment"
-    file: content/en/pages/glossaire/immersive-environment/_index.html
   - title: Accessibility
     target: "/en/glossaire/accessibility-1/"
     kind: page
@@ -55,6 +48,13 @@ items:
     children: []
     path: "/pages/glossaire/accessibility-1"
     file: content/en/pages/glossaire/accessibility-1/_index.html
+  - title: Immersive environment
+    target: "/en/glossaire/immersive-environment/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/glossaire/immersive-environment"
+    file: content/en/pages/glossaire/immersive-environment/_index.html
   - title: Human-centered design
     target: "/en/glossaire/human-centered-design/"
     kind: page
