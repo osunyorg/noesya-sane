@@ -1,6 +1,8 @@
 theme: noesya-hugo-theme
 _merge: deep
 params:
+  debug:
+    productionUrl: https://sane.noesya.coop
   ecosystem: sane
   logo:
     header: "/assets/images/logo.svg"
