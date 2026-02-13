@@ -2,157 +2,217 @@
 title: Main menu
 items:
 - title: Actualités
+  slug: actualites
   target: "/en/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/en/posts/_index.html
 - title: Agenda
+  slug: agenda
   target: "/en/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/en/events/_index.html
 - title: Équipe
+  slug: equipe
   target: "/en/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/en/persons/_index.html
 - title: Organisations
+  slug: organisations
   target: "/en/organisations/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/en/organizations/_index.html
 - title: Glossary
+  slug: glossary
   target: "/en/glossaire/"
   kind: page
   new_tab: false
   children:
   - title: User experience
+    slug: user-experience
     target: "/en/glossaire/experience-de-lutilisateur/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/experience-de-lutilisateur"
     file: content/en/pages/glossaire/experience-de-lutilisateur/_index.html
   - title: Accessibility
+    slug: accessibility
     target: "/en/glossaire/accessibility-1/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/accessibility-1"
     file: content/en/pages/glossaire/accessibility-1/_index.html
   - title: Immersive environment
+    slug: immersive-environment
     target: "/en/glossaire/immersive-environment/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/immersive-environment"
     file: content/en/pages/glossaire/immersive-environment/_index.html
   - title: Human-centered design
+    slug: human-centered-design
     target: "/en/glossaire/human-centered-design/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/human-centered-design"
     file: content/en/pages/glossaire/human-centered-design/_index.html
   - title: Ecodesign
+    slug: ecodesign
     target: "/en/glossaire/ecodesign/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/ecodesign"
     file: content/en/pages/glossaire/ecodesign/_index.html
   - title: Interaction design
+    slug: interaction-design
     target: "/en/glossaire/interaction-design/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/interaction-design"
     file: content/en/pages/glossaire/interaction-design/_index.html
   - title: Flow
+    slug: flow
     target: "/en/glossaire/flow/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/flow"
     file: content/en/pages/glossaire/flow/_index.html
   - title: Immersion
+    slug: immersion
     target: "/en/glossaire/immersion/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/immersion"
     file: content/en/pages/glossaire/immersion/_index.html
   - title: Presence
+    slug: presence
     target: "/en/glossaire/presence/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/presence"
     file: content/en/pages/glossaire/presence/_index.html
   - title: Augmented reality (AR)
+    slug: augmented-reality-ar
     target: "/en/glossaire/augmented-reality-ar/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/augmented-reality-ar"
     file: content/en/pages/glossaire/augmented-reality-ar/_index.html
   - title: Mixed reality (XR)
+    slug: mixed-reality-xr
     target: "/en/glossaire/mixed-reality/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/mixed-reality"
     file: content/en/pages/glossaire/mixed-reality/_index.html
   - title: Virtual reality (VR)
+    slug: virtual-reality-vr
     target: "/en/glossaire/virtual-reality/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/virtual-reality"
     file: content/en/pages/glossaire/virtual-reality/_index.html
   - title: Human Computer Interaction
+    slug: human-computer-interaction
     target: "/en/glossaire/human-computer-interaction/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/human-computer-interaction"
     file: content/en/pages/glossaire/human-computer-interaction/_index.html
   - title: User interface (UI)
+    slug: user-interface-ui
     target: "/en/glossaire/user-interface-ui/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/user-interface-ui"
     file: content/en/pages/glossaire/user-interface-ui/_index.html
   - title: Interactive system
+    slug: interactive-system
     target: "/en/glossaire/interactive-system/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/interactive-system"
     file: content/en/pages/glossaire/interactive-system/_index.html
   - title: User
+    slug: user
     target: "/en/glossaire/user/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/glossaire/user"
     file: content/en/pages/glossaire/user/_index.html
+  descendants_targets:
+  - "/en/glossaire/accessibility-1/"
+  - "/en/glossaire/augmented-reality-ar/"
+  - "/en/glossaire/ecodesign/"
+  - "/en/glossaire/experience-de-lutilisateur/"
+  - "/en/glossaire/flow/"
+  - "/en/glossaire/human-centered-design/"
+  - "/en/glossaire/human-computer-interaction/"
+  - "/en/glossaire/immersion/"
+  - "/en/glossaire/immersive-environment/"
+  - "/en/glossaire/interaction-design/"
+  - "/en/glossaire/interactive-system/"
+  - "/en/glossaire/mixed-reality/"
+  - "/en/glossaire/presence/"
+  - "/en/glossaire/user-interface-ui/"
+  - "/en/glossaire/user/"
+  - "/en/glossaire/virtual-reality/"
   path: "/pages/glossaire"
   file: content/en/pages/glossaire/_index.html
 - title: Exhibitions
+  slug: exhibitions
   target: "/en/exhibitions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/exhibitions"
   file: content/en/exhibitions/_index.html
 
