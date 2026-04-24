@@ -15,122 +15,122 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/fr/equipe/nadine-chartrain/index.html"
+from = "/fr/equipe/nadine-chartrain/"
 to = "/fr/personnes/nadine-chartrain/"
 
 [[redirects]]
-from = "/fr/equipe/delphine-brunet/index.html"
+from = "/fr/equipe/delphine-brunet/"
 to = "/fr/personnes/delphine-brunet/"
 
 [[redirects]]
-from = "/fr/equipe/sebastien-moulene/index.html"
+from = "/fr/equipe/sebastien-moulene/"
 to = "/fr/personnes/sebastien-moulene/"
 
 [[redirects]]
-from = "/fr/actualites/comptabilite-care/index.html"
+from = "/fr/actualites/comptabilite-care/"
 to = "/fr/actualites/axe-1/"
 
 [[redirects]]
-from = "/fr/actualites/experiences-interactives-dinteret-general/index.html"
+from = "/fr/actualites/experiences-interactives-dinteret-general/"
 to = "/fr/actualites/dispositifs-interactifs-dinteret-general/"
 
 [[redirects]]
-from = "/fr/equipe/pierre-andre-boissinot/index.html"
+from = "/fr/equipe/pierre-andre-boissinot/"
 to = "/fr/personnes/pierre-andre-boissinot/"
 
 [[redirects]]
-from = "/fr/post-growth-narratives/index.html"
+from = "/fr/post-growth-narratives/"
 to = "/fr/axis-2/"
 
 [[redirects]]
-from = "/fr/actualites/2023-05-15-rendez-vous-exploratoire/index.html"
+from = "/fr/actualites/2023-05-15-rendez-vous-exploratoire/"
 to = "/fr/actualites/2021-10-25-rendez-vous-exploratoire/"
 
 [[redirects]]
-from = "/fr/post-growth-innovation/index.html"
+from = "/fr/post-growth-innovation/"
 to = "/fr/axis-2/"
 
 [[redirects]]
-from = "/fr/actualites/2023-05-17-reunion-de-travail-du-groupe-communs-et-comptabilite-sur-les-capitaux-humains-care/index.html"
+from = "/fr/actualites/2023-05-17-reunion-de-travail-du-groupe-communs-et-comptabilite-sur-les-capitaux-humains-care/"
 to = "/fr/actualites/2022-12-09-reunion-de-travail-du-groupe-communs-et-comptabilite-sur-les-capitaux-humains-care/"
 
 [[redirects]]
-from = "/fr/equipe/daniel-le-guillou/index.html"
+from = "/fr/equipe/daniel-le-guillou/"
 to = "/fr/personnes/daniel-le-guillou/"
 
 [[redirects]]
-from = "/fr/equipe/arnaud-levy/index.html"
+from = "/fr/equipe/arnaud-levy/"
 to = "/fr/personnes/arnaud-levy/"
 
 [[redirects]]
-from = "/fr/equipe/magali-angles/index.html"
+from = "/fr/equipe/magali-angles/"
 to = "/fr/personnes/magali-angles/"
 
 [[redirects]]
-from = "/fr/actualites/2023-10-10-pour-un-numerique-d-interet-general-communication-et-democratie/index.html"
+from = "/fr/actualites/2023-10-10-pour-un-numerique-d-interet-general-communication-et-democratie/"
 to = "/fr/actualites/2023-07-04-pour-un-numerique-d-interet-general-communication-et-democratie/"
 
 [[redirects]]
-from = "/fr/equipe/ben-robra/index.html"
+from = "/fr/equipe/ben-robra/"
 to = "/fr/personnes/ben-robra/"
 
 [[redirects]]
-from = "/fr/organisations/laboratoire-mica/index.html"
+from = "/fr/organisations/laboratoire-mica/"
 to = "/fr/organisations/laboratoire-de-recherche-mica/"
 
 [[redirects]]
-from = "/fr/equipe/herve-gbego/index.html"
+from = "/fr/equipe/herve-gbego/"
 to = "/fr/personnes/herve-gbego/"
 
 [[redirects]]
-from = "/fr/actualites/2025-01-13-article-a-sane-island-in-an-ocean-of-madness/index.html"
+from = "/fr/actualites/2025-01-13-article-a-sane-island-in-an-ocean-of-madness/"
 to = "/fr/actualites/2025-01-13-a-sane-island-in-an-ocean-of-madness/"
 
 [[redirects]]
-from = "/fr/actualites/2023-01-30-reunion-de-travail-du-groupe-communs-et-comptabilite-sur-les-capitaux-humains-care/index.html"
+from = "/fr/actualites/2023-01-30-reunion-de-travail-du-groupe-communs-et-comptabilite-sur-les-capitaux-humains-care/"
 to = "/fr/actualites/2022-12-09-reunion-de-travail-du-groupe-communs-et-comptabilite-sur-les-capitaux-humains-care/"
 
 [[redirects]]
-from = "/fr/equipe/arnaud-levy/actualites/index.html"
+from = "/fr/equipe/arnaud-levy/actualites/"
 to = "/fr/personnes/arnaud-levy/actualites/"
 
 [[redirects]]
-from = "/fr/equipe/ben-robra/actualites/index.html"
+from = "/fr/equipe/ben-robra/actualites/"
 to = "/fr/personnes/ben-robra/actualites/"
 
 [[redirects]]
-from = "/fr/actualites/2022-10-07-formation-introductive-aux-enjeux-de-la-comptabilite-ecologique-et-aux-principes-et-etapes-methodologiques-du-projet-care-comprehensive-accounting-in-respect-of-ecology/index.html"
+from = "/fr/actualites/2022-10-07-formation-introductive-aux-enjeux-de-la-comptabilite-ecologique-et-aux-principes-et-etapes-methodologiques-du-projet-care-comprehensive-accounting-in-respect-of-ecology/"
 to = "/fr/actualites/2022-10-07-formation-introductive-aux-enjeux-de-la-comptabilite-ecologique-et-aux-principes-et-etapes-methodolo/"
 
 [[redirects]]
-from = "/fr/equipe/alexandre-rambaud/index.html"
+from = "/fr/equipe/alexandre-rambaud/"
 to = "/fr/personnes/alexandre-rambaud/"
 
 [[redirects]]
-from = "/fr/actualites/post-growth-innovation/index.html"
+from = "/fr/actualites/post-growth-innovation/"
 to = "/fr/actualites/axis-2/"
 
 [[redirects]]
-from = "/fr/equipe/alexis-benoit/index.html"
+from = "/fr/equipe/alexis-benoit/"
 to = "/fr/personnes/alexis-benoit/"
 
 [[redirects]]
-from = "/fr/actualites/2022-05-17-workshop-with-ben-robra/index.html"
+from = "/fr/actualites/2022-05-17-workshop-with-ben-robra/"
 to = "/fr/actualites/2022-05-17-atelier-exploratoire-avec-ben-robra/"
 
 [[redirects]]
-from = "/fr/equipe/index.html"
+from = "/fr/equipe/"
 to = "/fr/personnes/"
 
 [[redirects]]
-from = "/fr/equipe/equipe-editoriale/index.html"
+from = "/fr/equipe/equipe-editoriale/"
 to = "/fr/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/fr/comptabilite-care/index.html"
+from = "/fr/comptabilite-care/"
 to = "/fr/comptabilite-post-croissance/"
 
 [[redirects]]
-from = "/fr/equipe/sebastien-gaya/index.html"
+from = "/fr/equipe/sebastien-gaya/"
 to = "/fr/personnes/sebastien-gaya/"
 
