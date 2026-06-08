@@ -46,12 +46,21 @@ header#document-header nav > .container
                     padding-bottom: 0
             .post-infos,
             .posts-taxonomies
+                --border-width: 0
                 text-align: right
                 > li
                     display: block
                     > span
                         display: block
                         margin-bottom: $spacing-2
+            .taxonomies 
+                padding-bottom: $spacing-1 !important
+                .terms
+                    flex-direction: column
+                    gap: 0
+                    align-items: flex-end
+            .share
+                justify-content: flex-end
             .toc-content
                 text-align: right
                 .toc-pages
