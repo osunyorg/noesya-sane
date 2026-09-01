@@ -127,6 +127,10 @@ from = "/fr/equipe/equipe-editoriale/index.html"
 to = "/fr/personnes/equipe-editoriale/"
 
 [[redirects]]
+from = "/fr/fichiers/2026/index.html"
+to = "/fr/fichiers/2026/sts-conf--graz2023-finalprogram-080523pdf/"
+
+[[redirects]]
 from = "/fr/comptabilite-care/index.html"
 to = "/fr/comptabilite-post-croissance/"
 
