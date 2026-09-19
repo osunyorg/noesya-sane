@@ -52,15 +52,6 @@ items:
     descendants_targets: []
     path: "/pages/glossaire/experience-de-lutilisateur"
     file: content/en/pages/glossaire/experience-de-lutilisateur/_index.html
-  - title: Accessibility
-    slug: accessibility
-    target: "/en/glossaire/accessibility-1/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/glossaire/accessibility-1"
-    file: content/en/pages/glossaire/accessibility-1/_index.html
   - title: Immersive environment
     slug: immersive-environment
     target: "/en/glossaire/immersive-environment/"
@@ -70,6 +61,15 @@ items:
     descendants_targets: []
     path: "/pages/glossaire/immersive-environment"
     file: content/en/pages/glossaire/immersive-environment/_index.html
+  - title: Accessibility
+    slug: accessibility
+    target: "/en/glossaire/accessibility-1/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/glossaire/accessibility-1"
+    file: content/en/pages/glossaire/accessibility-1/_index.html
   - title: Human-centered design
     slug: human-centered-design
     target: "/en/glossaire/human-centered-design/"
