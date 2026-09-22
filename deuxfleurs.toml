@@ -31,6 +31,10 @@ from = "/fr/actualites/comptabilite-care/index.html"
 to = "/fr/actualites/axe-1/"
 
 [[redirects]]
+from = "/fr/organisations/categories/clients/index.html"
+to = "/fr/organisations/categories/client/"
+
+[[redirects]]
 from = "/fr/actualites/experiences-interactives-dinteret-general/index.html"
 to = "/fr/actualites/dispositifs-interactifs-dinteret-general/"
 
