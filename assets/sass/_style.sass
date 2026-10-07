@@ -11,9 +11,13 @@ header#document-header nav > .container
             font-style: italic
             line-height: 130%
 
+            @include media-breakpoint-up(desktop)
+                width: columns(9)
+
 .block-posts--list article .post-content
     @include in-page-with-or-without-sidebar
         margin-left: 0
+
         @include media-breakpoint-up(md)
             width: columns(8)
 .media:empty
@@ -25,7 +29,9 @@ header#document-header nav > .container
 @include media-breakpoint-up(desktop)
     .posts__page .document-content
         min-height: 550px
-    .posts__page:not(.full-width), .pages__section:not(.full-width)
+
+    .posts__page:not(.full-width), 
+    .pages__section:not(.full-width)
         .block .block-content, .heading h2
             padding-left: 0 !important
             padding-right: offset(4)
@@ -73,6 +79,7 @@ header#document-header nav > .container
                 padding-bottom: 0
             .toc-container
                 padding-top: $spacing-3
+
     .pages__section:not(.full-width)
         .section-sidebar
             margin-right: grid-external-space()
@@ -89,6 +96,7 @@ header#document-header nav > .container
 @include media-breakpoint-down(desktop)
     .posts__page .post-sidebar
         margin-bottom: $spacing-5
+
 .block-pages
     &--grid
         @include media-breakpoint-up(desktop)
