@@ -103,3 +103,20 @@ header#document-header nav > .container
             .pages
                 @include in-page-without-sidebar
                     @include grid(2, desktop)
+
+// publications in homepage
+.page__home
+    .block-publications
+        .block-content
+            display: block !important
+
+        .publication-title
+            @include h4
+
+        .publications-link
+            a
+                @include icon(arrow-right-line, after, true)
+                @include hover-translate-icon
+                text-decoration: none
+                &::after
+                    vertical-align: middle

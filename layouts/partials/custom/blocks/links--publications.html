@@ -1,0 +1,33 @@
+{{ $block := .block }}
+{{ $publications_page := site.GetPage "/publications" }}
+{{ $publications := partial "publications/helpers/FilterByAnrProjectReferences" $publications_page.Pages }}
+{{ $publications = first 3 $publications.ByDate.Reverse }}
+{{ $heading_level := $block.ranks.self }}
+
+{{ $items := slice }}
+{{ range $publications }}
+  {{ $items = $items | append (dict "path" .Path) }}
+{{ end }}
+
+{{ with .block.data }}
+  <div class="block block-publications">
+    <div class="container">
+      <div class="block-content">
+        <ul class="publications">
+          {{ range $items }}
+            {{ with site.GetPage .path }}
+              {{ partial "publications/partials/publication.html" (dict 
+                "publication" .
+                "heading_level" $heading_level
+              ) }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="container publications-link">
+      <a href="{{ $publications_page.Permalink }}">Voir toutes les publications</a>
+    </div>
+  </div>
+{{ end }}
